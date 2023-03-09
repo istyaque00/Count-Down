@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./ssspiral.svg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 90vw;
+  background-color: rgb(66, 133, 160);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+h1,
+h3 {
+  color: white;
+}
